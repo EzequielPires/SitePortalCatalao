@@ -1,0 +1,30 @@
+module.exports = {
+  reactStrictMode: true,
+  generateEtags: false,
+  images: {
+    domains: [
+      'null',
+      'savanaimoveis.com.br',
+      'www.savanaimoveis.com.br',
+      'jribeiroimoveis.com.br',
+      'www.jribeiroimoveis.com.br',
+      'www.portalcatalao.com.br',
+      'portalcatalao.com.br',
+      'portalcatalao.com.br/portal',
+      'paratiimoveis.com.br',
+      'www.paratiimoveis.com.br',
+      'kellynegocios.com.br',
+      'www.kellynegocios.com.br',
+      'www.guiacatalao.com.br',
+      'guiacatalao.com.br',
+      'i.ytimg.com',
+      'marcalimoveis.com.br',
+      'www.marcalimoveis.com.br',
+      'painel',
+      'amimoveiscatalao.com.br',
+      'www.amimoveiscatalao.com.br',
+      'inovanegociosimobiliarios.com.br',
+      'www.inovanegociosimobiliarios.com.br'
+    ],
+  },
+}

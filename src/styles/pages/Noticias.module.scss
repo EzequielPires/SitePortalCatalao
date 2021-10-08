@@ -1,0 +1,15 @@
+.buttonGetMorePost {
+    height: 3rem;
+    width: 160px;
+    background: var(--blue-light);
+    border: 0;
+    border-radius: 4px;
+
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+
+    &:hover {
+        filter: brightness(0.8);
+    }
+}

@@ -1,0 +1,92 @@
+.search {
+    position: relative;
+    .input {
+        position: absolute;
+        top: calc(100% + 4px) !important;
+        right: 0;
+        display: flex;
+        .search {
+            position: absolute;
+            right: 0;
+            width: 95%;
+            border-radius: 0.25rem;
+            box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+            transition: 0.2s;
+            button {
+                height: 48px !important;
+                width: 48px !important;
+                border: 0;
+                box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+                background: var(--blue-light);
+                color: #fff;
+                font-size: 1.25rem;
+                border-radius: 0 0.25rem 0.25rem 0;
+                z-index: 9999;
+            }
+            .inputSearch {
+                border: 0;
+                height: 48px;
+                border-radius: 0.25rem 0 0 0.25rem;
+                z-index: 9999;
+                &:focus {
+                    box-shadow: none;
+                }
+            }
+            .overlay {
+                position: fixed;
+                top: 0;
+                left: 0;
+                background: transparent;
+                cursor: default;
+                min-width: 100vw;
+                min-height: 100vw;
+                z-index: 9997;
+            }
+        }
+        .searchDisable {
+            position: absolute;
+            right: 0;
+            width: 0;
+            transition: 0.2s;
+            button {
+                display: none !important;
+            }
+            .inputSearch {
+                padding: 0;
+                border: 0;
+                transition: 0.2s;
+            }
+        }
+    }
+    .input > form {
+        width: 500px;
+        height: 50px;
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+    }
+    .btnSearch {
+        border: 0 !important;
+        border-radius: 0 !important;
+        height: 74px;
+        width: 74px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        background: var(--blue-light);
+        padding: 0;
+        z-index: 9999;
+        svg {
+            font-size: 1.5rem;
+        }
+    }
+}
+@media (max-width: 524px) {
+    .search .input form {
+        width: 350px;
+    }
+}

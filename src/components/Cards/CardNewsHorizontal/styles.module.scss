@@ -1,0 +1,142 @@
+.cardHorizontal {
+    height: 226px;
+    flex-direction: row;
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    position: relative;
+    overflow: hidden;
+    .cardHeader {
+        min-width: 313px;
+        max-width: 313px;
+        min-height: 224px;
+        max-height: 224px;
+        overflow: hidden;
+        padding: 0;
+        border: 0;
+        position: relative;
+        border-radius: 0;
+        img {
+            min-height: 100%;
+            min-width: 100%;
+            object-fit: cover;
+            border-radius: 0;
+        }
+    }
+    .cardBody {
+        padding: 1rem;
+        .cardCategory {
+            position: absolute;
+            left: 0;
+            bottom: 24px;
+
+            font-size: 0.75rem;
+            font-weight: 400;
+            text-transform: uppercase;
+
+            color: #fff;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 0.2rem 0.5rem;
+            border-bottom: 3px solid var(--red);
+        }
+        .cardTitle {
+            color: #333;
+
+            font-size: 1.5rem;
+            font-weight: 700;
+            line-height: 1.75rem;
+
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            max-height: 56px;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+        }
+        .cardText {
+            color: #555;
+
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5rem;
+
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            max-height: 70px;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+        }
+        .cardPostTime {
+            color: #555;
+            display: block;
+
+            font-size: 0.75rem;
+            font-weight: 400;
+            line-height: 1rem;
+
+            margin: 0.75rem 0;
+        }
+    }
+    &:hover img {
+        transform: scale(1.2);
+    }
+}
+@media (max-width: 768px) {
+    .cardHorizontal {
+        min-height: 414px;
+        flex-direction: column;
+        width: 100%;
+        max-width: 350px !important;
+        .cardHeader {
+            min-width: 100%;
+            min-height: 224px;
+            height: 224px;
+            img {
+                width: 100%;
+            }
+            a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: 300px;
+            }
+        }
+        .cardBody {
+            padding: 1rem 0.5rem;
+            .cardCategory {
+                position: absolute;
+                left: 0;
+                bottom: 88%;
+            }
+            .cardTitle {
+                color: #333;
+
+                font-size: 1.5rem;
+                font-weight: 700;
+                line-height: 1.75rem;
+
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                max-height: 56px;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+            }
+            .cardText {
+                color: #555;
+
+                font-size: 1rem;
+                font-weight: 400;
+                line-height: 1.5rem;
+
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                max-height: 48px;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+            }
+        }
+    }
+}

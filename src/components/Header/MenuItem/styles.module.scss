@@ -1,0 +1,28 @@
+.menuItem {
+    height: 48px;
+    padding: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    a {
+        font-weight: 600;
+        color: #555;
+        &:hover {
+            color: var(--blue);
+        }
+    }
+    button {
+        font-weight: 600;
+        color: #555;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #fff;
+        border: 0;
+        &:hover {
+            color: var(--blue);
+            svg {
+                color: var(--blue);
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+.boxAnnouncement {
+    min-height: calc((100% / 2) - 1.5rem);
+    position: relative;
+    margin-bottom: 1.5rem;
+    .boxAnnouncementItem {
+        position: sticky;
+        top: 88px;
+    }
+}

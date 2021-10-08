@@ -1,0 +1,30 @@
+.optionsListFooter {
+    .optionLink {
+        width: fit-content;
+
+        color: #fff;
+        display: flex;
+
+        font-size: 0.75rem;
+        font-weight: 400;
+        margin-bottom: 0.75rem;
+        .icon {
+            width: 2rem;
+            height: 2rem;
+            svg {
+                font-size: 0.875rem;
+            }
+        }
+        &:hover .icon {
+            color: var(--blue);
+            background: #fff;
+        }
+    }
+}
+@media (max-width: 575px) {
+    .optionsListFooter {
+        &:first-child {
+            min-width: 100%;
+        }
+    }
+}

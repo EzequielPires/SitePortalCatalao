@@ -1,0 +1,24 @@
+.newsListingCities {
+    height: 436px;
+    ul {
+        height: auto;
+        background: #fff;
+        border: 1px solid #f0f0f0;
+        border-radius: 4px;
+        li {
+            hr {
+            border-top: 1px solid #f0f0f0;
+            opacity: 1;
+            }
+        }
+    }
+    .titleCardsGroup {
+        color: #000;
+
+        font-size: 1rem;
+        font-weight: 700;
+        line-height: 1.25rem;
+    
+        margin-bottom: 4px;
+    }
+}

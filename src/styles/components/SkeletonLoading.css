@@ -1,0 +1,269 @@
+/*SkeletonNews*/
+#SkeletonNews {
+    background: #fff;
+    padding: 0.5rem;
+}
+#SkeletonNews #rect-1 {
+    height: 226px;
+    width: calc(100% - 0.1rem);
+}
+#SkeletonNews #rect-2 {
+    x: 0;
+    y: 238px;
+    width: 100%;
+    height: 24px;
+}
+#SkeletonNews #rect-3 {
+    x: 0;
+    y: 276px;
+    width: 80%;
+    height: 24px;
+}
+#SkeletonNews #rect-4 {
+    x: 0;
+    y: 376px;
+    width: 30%;
+}
+
+/*SkeletonNewsMain*/
+#SkeletonNewsMain {
+    background: #fff;
+    padding: 0.5rem;
+}
+#SkeletonNewsMain #rect-1 {
+    height: 446px;
+    width: calc(100% - 0.1rem);
+}
+#SkeletonNewsMain #rect-2 {
+    x: 0;
+    y: 458px;
+    width: 100%;
+}
+#SkeletonNewsMain #rect-3 {
+    x: 0;
+    y: 526px;
+    width: 80%;
+}
+#SkeletonNewsMain #rect-4 {
+    x: 0;
+    y: 596px;
+    width: 30%;
+}
+
+/*SkeletonNewsHorizontal*/
+#SkeletonNewsHorizontal {
+    overflow: hidden;
+    background-color: #fff;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #f0f0f0; 
+}
+#SkeletonNewsHorizontal #rect-1 {
+    height: 208px;
+}
+
+/*SkeletonClassifiedVertical*/
+#SkeletonClassifiedVertical {
+    height: 465px;
+    width: 100%;
+    border: 1px solid #f0f0f0;
+    background: #fff;
+    padding: 0.5rem;
+}
+#SkeletonClassifiedVertical #rect-1 {
+    width: calc(100% - 0.1rem);
+    height: 220px;
+    x: 0;
+    y: 0;
+}
+#SkeletonClassifiedVertical #rect-2 {
+    width: calc(100% - 0.1rem);
+    height: 24px;
+    x: 0;
+    y: 232px;
+}
+#SkeletonClassifiedVertical #rect-3 {
+    width: 80%;
+    height: 16px;
+    x: 0;
+    y: 268px;
+}
+#SkeletonClassifiedVertical #rect-4 {
+    width: 50%;
+    height: 56px;
+    x: 0;
+    y: 296px;
+}
+#SkeletonClassifiedVertical #rect-5 {
+    width: 70%;
+    height: 48px;
+    x: 0;
+    y: 364px;
+}
+/*SkeletonClassifiedOther*/
+#SkeletonClassifiedOther {
+    height: 85px;
+    width: 100%;
+    background: #fff;
+    padding: 0.5rem;
+}
+#SkeletonClassifiedOther #rect-1 {
+    width: 85px;
+    height: 100%;
+    x: 0;
+    y: 0;
+}
+#SkeletonClassifiedOther #rect-2 {
+    width: 60%;
+    height: 20px;
+    x: 97px;
+    y: 0;
+}
+#SkeletonClassifiedOther #rect-3 {
+    width: 50%;
+    height: 16px;
+    x: 97px;
+    y: 28px;
+}
+#SkeletonClassifiedOther #rect-4 {
+    width: 30%;
+    height: 12px;
+    x: 97px;
+    y: 56;
+}
+/*SkeletonClassifiedhorizontal*/
+#SkeletonClassifiedhorizontal {
+    height: 154px;
+    width: 100%;
+    background: #fff;
+    padding: 0.5rem;
+}
+#SkeletonClassifiedhorizontal #rect-1 {
+    width: 85px;
+    height: 100%;
+    x: 0;
+    y: 0;
+}
+#SkeletonClassifiedhorizontal #rect-2 {
+    width: 80%;
+    height: 24px;
+    x: 96px;
+    y: 0;
+}
+#SkeletonClassifiedhorizontal #rect-3 {
+    width: 30%;
+    height: 18px;
+    x: 96px;
+    y: 32px;
+}
+#SkeletonClassifiedhorizontal #rect-4 {
+    width: 10%;
+    height: 16px;
+    x: 96px;
+    y: 58px;
+}
+#SkeletonClassifiedhorizontal #rect-5 {
+    width: 80%;
+    height: 24px;
+    x: 96px;
+    y: calc(100% - 32px);
+}
+/*SkeletonAnnouncementBanner*/
+#SkeletonAnnouncementBanner {
+    width: 100%;
+}
+#SkeletonAnnouncementBanner #rect-2 {
+    width: 100%;
+    height: 130px;
+}
+@media (max-width: 767px) {
+    /*SkeletonNewsHorizontal*/
+    #SkeletonNewsHorizontal {
+        height: 430px;
+        max-width: 348px;
+        overflow: hidden;
+        background-color: #fff;
+        padding: 0.5rem;
+        border-radius: 4px;
+        border: 1px solid #f0f0f0; 
+    }
+    #SkeletonNewsHorizontal #rect-1 {
+        height: 226px;
+        width: calc(100% - 0.1rem);
+    }
+    #SkeletonNewsHorizontal #rect-2 {
+        x: 0;
+        y: 238px;
+        width: 100%;
+    }
+    #SkeletonNewsHorizontal #rect-3 {
+        x: 0;
+        y: 306px;
+        width: 80%;
+    }
+    #SkeletonNewsHorizontal #rect-4 {
+        x: 0;
+        y: 376px;
+        width: 30%;
+    }
+
+    /*SkeletonNewsMain*/
+    #SkeletonNewsMain {
+        height: 430px;
+        max-width: 348px;
+        overflow: hidden;
+        background-color: #fff;
+        padding: 0.5rem;
+        border-radius: 4px;
+        border: 1px solid #f0f0f0; 
+    }
+    #SkeletonNewsMain #rect-1 {
+        height: 226px;
+        width: calc(100% - 0.1rem);
+    }
+    #SkeletonNewsMain #rect-2 {
+        x: 0;
+        y: 238px;
+        width: 100%;
+    }
+    #SkeletonNewsMain #rect-3 {
+        x: 0;
+        y: 306px;
+        width: 80%;
+    }
+    #SkeletonNewsMain #rect-4 {
+        x: 0;
+        y: 376px;
+        width: 30%;
+    }
+
+    /*SkeletonNews*/
+    #SkeletonNews {
+        height: 430px;
+        max-width: 348px;
+        overflow: hidden;
+        background-color: #fff;
+        padding: 0.5rem;
+        border-radius: 4px;
+        border: 1px solid #f0f0f0; 
+    }
+    #SkeletonNews #rect-1 {
+        height: 226px;
+        width: calc(100% - 0.1rem);
+    }
+    #SkeletonNews #rect-2 {
+        x: 0;
+        y: 238px;
+        width: 100%;
+    }
+    #SkeletonNews #rect-3 {
+        x: 0;
+        y: 306px;
+        width: 80%;
+    }
+    #SkeletonNews #rect-4 {
+        x: 0;
+        y: 376px;
+        width: 30%;
+    }
+}

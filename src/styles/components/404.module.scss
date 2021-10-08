@@ -1,0 +1,16 @@
+.title {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    color: var(--blue);
+
+    ~ p {
+        color: #333;
+    }
+}
+@media (max-width: 768px) {
+    .title {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+}

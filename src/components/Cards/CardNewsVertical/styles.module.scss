@@ -1,0 +1,137 @@
+.cardVertical {
+    height: 320px;
+    width: 100%;
+    max-width: 475px;
+    max-height: 380px;
+    border: 1px solid rgba(0,0,0,.125);
+    overflow: hidden;
+    .cardCategory {
+        position: absolute;
+        top: 1.5rem;
+        left: 0;
+
+        color: #fff;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 0.2rem 0.5rem;
+        border-bottom: 3px solid var(--red);
+
+        font-size: 0.75rem;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    .cardHeader {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        overflow: hidden;
+        border: 0;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: 0.5s;
+        }
+    }
+    .cardBody {
+        width: 100% !important;
+        position: absolute;
+        bottom: 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+
+        padding: 0.5rem;
+        height: 30%;
+        background: linear-gradient(180deg, rgba(51, 51, 51, 0) 0%, rgb(22, 22, 24) 70%);
+        .cardTitle {
+            width: 100% !important;
+            color: #fff;
+            font-size: 1.25rem;
+            font-weight: 600;
+            text-shadow: 2px 2px 2px black;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            line-height: 24px;
+            height: 72px;
+            max-height: 72px;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+        }
+        .cardPostTime {
+            color: #555;
+            display: block;
+
+            font-size: 0.75rem;
+            font-weight: 400;
+            line-height: 1rem;
+
+            margin: 0.75rem 0;
+        }
+    }
+    &:hover img {
+        transform: scale(1.2);
+    }
+}
+@media (max-width: 1399px) {
+    .cardVertical {
+        width: 100%;
+        max-width: 100%;
+        height: 400px;
+        .cardHeader {
+            width: 100%;
+        }
+    }
+}
+@media (max-width: 991px) {
+    .cardVertical {
+        width: 100%;
+        max-width: 22rem;
+        height: auto;
+        max-height: none;
+        .cardHeader {
+            position: relative;
+            height: 224px;
+            width: 100%;
+        }
+        .cardBody {
+            position: relative;
+            height: auto;
+            padding: 1rem 0.5rem;
+            background: #fff;
+            flex: 1 1 auto;
+            .cardTitle {
+                color: #333;
+
+                font-size: 1.5rem;
+                font-weight: 700;
+                line-height: 1.75rem;
+
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                max-height: 56px;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                text-shadow: none;
+            }
+            .cardText {
+                color: #555;
+
+                font-size: 1rem;
+                font-weight: 400;
+                line-height: 1.5rem;
+                text-shadow: none;
+
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box !important;
+                max-height: 48px;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+            }
+        }
+    }
+}

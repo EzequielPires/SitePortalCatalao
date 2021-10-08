@@ -1,0 +1,20 @@
+.subMenu {
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+    padding: 0.25rem;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    transition: 0.2s;
+    left: 320px;
+    .linkParent {
+        color: var(--blue);
+        font-weight: 700;
+    }
+    .linkParent > button svg {
+        margin-left: 0;
+        margin-right: 1rem;
+    }
+}

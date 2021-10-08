@@ -1,0 +1,28 @@
+.content {
+    h1 {
+        font-weight: 700;
+        color: var(--blue-light);
+    }
+    h2 {
+        color: var(--blue-light);
+        margin-bottom: 0.5rem;
+    }
+    h4 {
+        color: var(--blue-light);
+        margin-bottom: 0.5rem;
+    }
+    p {
+        color: #555;
+        font-weight: 400;
+        margin-bottom: 0.5rem;
+    }
+    ul {
+        padding-left: 2rem !important;
+        li {
+            list-style: disc;
+        }
+    }
+    .item {
+        margin-bottom: 2rem;
+    }
+}

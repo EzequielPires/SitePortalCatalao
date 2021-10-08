@@ -1,0 +1,54 @@
+.properties {
+    .propertiesMain {
+        border-radius: 0.25rem;
+        overflow: hidden;
+        .propertyHeader {
+            background: var(--blue-light);
+            display: flex;
+            align-items: center;
+            height: 46px;
+            .title {
+                color: #fff;
+
+                font-size: 1rem;
+                font-weight: 700;
+            }
+            svg {
+                color: #fff;
+            }
+        }
+    }
+    .propertiesOthers {
+        border-radius: 0.25rem;
+        overflow: hidden;
+        .propertyHeader {
+            background: #708090;
+            display: flex;
+            align-items: center;
+            padding: 0 0.75rem;
+            height: 46px;
+            .title {
+                color: #fff;
+
+                font-size: 1rem;
+                font-weight: 700;
+            }
+        }
+        hr {
+            margin: 0;
+            background: #e5e5e5;
+        }
+    }
+    .link {
+        color: var(--blue);
+        font-size: 0.875rem;
+        font-weight: 700;
+        margin-top: 1.5rem;
+
+        display: flex;
+        align-items: center;
+        svg {
+            font-size: 1.25rem;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.sectionsCategories {
+    .title {
+        color: #333;
+    }
+    .category {
+        button {
+            transition: 0.2s;
+            &:hover {
+                box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25) !important;
+            }
+        }
+    }
+    hr:first-child {
+        height: 5px;
+        background: var(--blue);
+        opacity: 1;
+    } 
+}
